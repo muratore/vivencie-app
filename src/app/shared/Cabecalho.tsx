@@ -60,7 +60,7 @@ const Cabecalho = (props: CabecalhoProps) => {
             onClick={() => {
               setNav(false), console.log(!nav);
             }}
-            texto="SERVICOS"
+            texto="SERVIÇOS"
           />
           <MenuItem
             url="/atividades"

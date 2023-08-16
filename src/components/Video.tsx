@@ -8,8 +8,6 @@ const Video = () => {
         <source
           src="assets/videos/Vivencie_videosite.mp4"
           type="video/mp4"
-        
-        
         />
       </video>
     </div>

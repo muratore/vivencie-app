@@ -11,18 +11,19 @@ import Img_diaBeleza from 'public/assets/atividades/diaBeleza.png'
 import Img_hidroginastica from 'public/assets/atividades/hidroginastica.png'
 import Img_hortoterapia from 'public/assets/atividades/hortoterapia.png'
 import Rodape from "@/components/Rodape"
+import Whatsapp from "../shared/Whatsapp"
 
 
 const Atividades = () => {
   return (
-    <div className="flex flex-col h-full min-h-screen bg-vivencie">
+    <div className="flex flex-col h-full min-h-screen bg-vivencie relative">
         <Cabecalho className="bg-vivencie shadow-md"/>
         <div className="flex flex-col mt-40 px-8 md:px-16 xl:px-40">
 
         <TitleSections title="Muita interação para deixar o dia mais alegre"/>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 mb-8 gap-6">
           <CardAtividades titulo="Musicoterapia" imagem={Img_Musicoterapia} alt="Íconde de musicoterapia"/>
-          <CardAtividades titulo="Hototerapia" imagem={Img_hortoterapia} alt="Hortoterapia"/>
+          <CardAtividades titulo="Hortoterapia" imagem={Img_hortoterapia} alt="Hortoterapia"/>
           <CardAtividades titulo="Hidroginastica" imagem={Img_hidroginastica} alt="Hidroginástica"/>
           <CardAtividades titulo="Jogos" imagem={Img_jogos} alt="Jogos"/>
           <CardAtividades titulo="Dia da Beleza" imagem={Img_diaBeleza} alt="Dia da Beleza"/>
@@ -33,6 +34,7 @@ const Atividades = () => {
         </div>
         </div>
         <div className=" flex-1"></div>
+        <Whatsapp className=" fixed right-8 bottom-16 drop-shadow-md"/>
         <Rodape/>
     </div>
   )

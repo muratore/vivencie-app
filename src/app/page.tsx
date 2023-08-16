@@ -2,6 +2,7 @@ import Image from "next/image";
 import Cabecalho from "./shared/Cabecalho";
 import Abertura from "public/assets/vivencie_abertura.jpg";
 import Rodape from "@/components/Rodape";
+import Whatsapp from "./shared/Whatsapp";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           
           ">Um presente para o futuro</h1>
            <Rodape className=" z-40 absolute w-full bottom-0" />
+           <Whatsapp className=" absolute right-8 bottom-16"/>
         </div>
        
       </main>

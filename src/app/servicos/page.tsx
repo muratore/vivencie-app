@@ -6,6 +6,7 @@ import jardim1 from "public/assets/local/jardim1.jpg";
 import piscina from "public/assets/local/piscina.jpg";
 import TitleSections from "../shared/TitleSections";
 import Rodape from "@/components/Rodape";
+import Whatsapp from "../shared/Whatsapp";
 
 const Servicos = () => {
   return (
@@ -39,6 +40,7 @@ const Servicos = () => {
       </div>
       <div className="bg-red-500 flex-1"></div>
       <Rodape/>
+      <Whatsapp className=" fixed right-8 bottom-8"/>
     </div>
   );
 };
