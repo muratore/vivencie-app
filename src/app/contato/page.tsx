@@ -3,7 +3,6 @@ import Cabecalho from "../shared/Cabecalho";
 import TitleSections from "../shared/TitleSections";
 import Maps from "@/components/Maps";
 import {
-  IconBrandGoogleMaps,
   IconBrandWhatsapp,
   IconMail,
   IconPhone,
@@ -25,18 +24,14 @@ const Contato = () => {
 
           <ContatoCard icone={<IconBrandWhatsapp size={50} stroke={1}/>} titulo="Fale com a gente agora" textoLink="085 99841.1838" url="https://wa.me/85998411838?text=Bem-vindo%20ao%20Vivencie%20Residencial%20S%C3%AAnior!%20Como%20podemos%20lhe%20ajudar%3F"/>
 
-          <ContatoCard icone={<IconMail size={50} stroke={1}/>} titulo="Mande um e-mail" textoLink="vivencieresidencialsenior@gmail.com" url="mailto:vivencieresidencialsenior@gmail.com" />
-         
+          <ContatoCard icone={<IconMail size={50} stroke={1}/>} titulo="Mande um e-mail" textoLink="contato@vivencieresidencialsenior.com.br" url="mailto:contato@vivencieresidencialsenior.com.br" />
         </div>
         <h3 className=" text-4xl mt-12 mb-6">Visite-nos</h3>
         <Maps full />
       </div>
-     
       <div className="flex-1"></div>
       <Rodape/>
     </div>
-
-   
   );
 };
 

@@ -82,7 +82,7 @@ const Cabecalho = (props: CabecalhoProps) => {
           />
           <div className="flex w-full lg:w-20 self-start pl-2 bg-zinc-500 lg:bg-transparent gap-2">
             <Link
-              className=" hover:text-zinc-400 duration-300 "
+              className=" hover:text-zinc-300 duration-300 "
               href={"https://www.instagram.com/vivencieresidencialsenior/"}
             >
               {" "}
@@ -90,8 +90,8 @@ const Cabecalho = (props: CabecalhoProps) => {
             </Link>{" "}
             |
             <Link
-              className=" hover:text-zinc-400 duration-300 "
-              href={"https://www.instagram.com/vivencieresidencialsenior/"}
+              className=" hover:text-zinc-300 duration-300 "
+              href={"https://www.facebook.com/vivencie.residencial.senior?mibextid=LQQJ4d"}
             >
               {" "}
               <IconBrandFacebook />
