@@ -24,17 +24,17 @@ const Atividades = () => {
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 mb-8 gap-6">
           <CardAtividades titulo="Musicoterapia" imagem={Img_Musicoterapia} alt="Íconde de musicoterapia"/>
           <CardAtividades titulo="Hortoterapia" imagem={Img_hortoterapia} alt="Hortoterapia"/>
-          <CardAtividades titulo="Hidroginastica" imagem={Img_hidroginastica} alt="Hidroginástica"/>
+          <CardAtividades titulo="Hidroginástica" imagem={Img_hidroginastica} alt="Hidroginástica"/>
           <CardAtividades titulo="Jogos" imagem={Img_jogos} alt="Jogos"/>
           <CardAtividades titulo="Dia da Beleza" imagem={Img_diaBeleza} alt="Dia da Beleza"/>
           <CardAtividades titulo="Arte Terapia" imagem={Img_arteTerapia} alt="Arte terapia"/>
           <CardAtividades titulo="Fisioterapia" imagem={Img_fisioterapia} alt="Fisioterapia"/>
-          <CardAtividades titulo="T.O." imagem={Img_to} alt="Terapia Ocupacional"/>
+          <CardAtividades titulo="Terapia Ocupacional" imagem={Img_to} alt="Terapia Ocupacional"/>
           <CardAtividades titulo="Nutricionista" imagem={Img_nutricionista} alt="Íconde de musicoterapia"/>
         </div>
         </div>
         <div className=" flex-1"></div>
-        <Whatsapp className=" fixed right-8 bottom-16 drop-shadow-md"/>
+        <Whatsapp className=" fixed right-8 bottom-16 "/>
         <Rodape/>
     </div>
   )
