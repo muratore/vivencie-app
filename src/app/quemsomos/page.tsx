@@ -20,7 +20,7 @@ const QuemSomos = () => {
         <div className=" flex flex-col items-center ">
           <TitleSections
             className=" lg:w-3/5 "
-            title="Um Lugar onde os sorrisos se encontram e as histórias de entrelaçam!"
+            title="Um Lugar onde os sorrisos se encontram e as histórias se entrelaçam!"
           />
 
           <div className=" flex flex-col gap-5 lg:w-3/5 lg:text-lg font-light ">
