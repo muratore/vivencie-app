@@ -38,7 +38,7 @@ const Servicos = () => {
           />
         </div>
       </div>
-      <div className="bg-red-500 flex-1"></div>
+      <div className=" flex-1"></div>
       <Rodape/>
       <Whatsapp className=" fixed right-8 bottom-8"/>
     </div>
